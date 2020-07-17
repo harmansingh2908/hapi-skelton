@@ -1,0 +1,46 @@
+/* footer css starts*/
+
+.footer-wrapper {
+  background: #181818;
+}
+.footer {
+    padding:49px 0;
+    display: inline-block;
+    width: 100%;
+}
+.footer p {
+    color: #fff;
+    font-size: 15px;
+    font-family: 'AvenirLTStd35Light_5169_1';
+}
+.footer-wrapper .footer-ul{
+    list-style: none;
+    display: inline; 
+    float: right;
+    
+}
+.footer-wrapper .footer-ul li{
+    display: inline-block;
+    line-height: 16px;
+}
+
+
+.footer-wrapper .footer-ul li a{
+   font-size:16px ;
+    font-family: "AvenirLTStd65Medium";
+    color: #fff;
+    font-weight:300 ;  
+    line-height: normal;
+     line-height: 16px;
+}
+.footer-wrapper .footer-ul li a:hover{
+    color: #c61b29;
+}
+
+.footer-wrapper .footer-ul li+li{
+    padding: 0 0 0 44px;
+/*    border-left: 1px solid #808080;*/
+}
+
+
+/* footer css ends*/

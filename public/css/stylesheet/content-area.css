@@ -1,0 +1,464 @@
+ 
+/* about-app css starts */
+ .about-app{
+     background: #f7f7f7;
+     padding:27px 0 ;
+}
+ .about-app span.logo {
+     margin-left: -6%;
+}
+ .about-txt {
+     margin: 159px 0 0 0;
+     width: 100%;
+     display: inline-block;
+    /* max-width: 490px;
+    */
+}
+ .about-txt h2 {
+     font-size: 28px;
+     text-transform: capitalize;
+     margin:0 0 38px;
+     font-weight: 400;
+     color:#181818;
+     position: relative;
+}
+ .about-txt h2::before {
+     content: "";
+     position: absolute;
+     left: 0;
+     bottom: -11px;
+     width: 100%;
+     max-width: 79px;
+     height: 2px;
+     background: #c61b29;
+}
+ .about-txt p{
+     line-height: 25px;
+     margin: 0 0 17px 0;
+     font-size: 15px;
+     font-weight: 400;
+     color: #181818;
+}
+ .about-us-app{
+     list-style: none;
+}
+ .about-txt .about-us-checkbox ul.about-us-app li {
+     margin-bottom: 10px;
+     color: #808080;
+}
+ .about-us-app li i{
+     color: #592d9b;
+}
+/* about-app css ends */
+/* how it works css starts */
+ .features {
+     padding:65px 0;
+     background: url(../../images/feature-bg.jpg) center center no-repeat;
+     background-size: cover;
+}
+ .features h2 {
+     font-size: 28px;
+     text-transform: capitalize;
+     margin:0 0 38px;
+     font-weight: 400;
+     color:#181818;
+     position: relative;
+}
+ .features h2::before {
+     content: "";
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     bottom: -11px;
+     width: 100%;
+     max-width: 79px;
+     height: 2px;
+     background: #c61b29;
+}
+ .features p {
+     color: #181818;
+     margin: 0 auto;
+     font-size: 17px;
+     font-weight: 300;
+     position: relative;
+}
+ .features .features-innr{
+     margin: 68px 0 0 0;
+}
+ .features .features-innr .feature-img {
+     display: inline-block;
+}
+ .features .features-innr h4{
+     font-size: 22px;
+     text-transform: capitalize;
+     font-weight: 500;
+     margin:33px 0 17px;
+     color:#181818;
+}
+ .about-txt .download-btn{
+     display: inline-block;
+     font-family: 'AvenirLTStd65Medium';
+}
+ .about-txt .download-btn a{
+     color: #c61b29;
+     margin: 37px 0 0 0;
+     font-size: 21px;
+}
+ .about-txt .download-btn a:hover{
+     color:#c61b29;
+}
+/* how it works css ends */
+/* screenshots css starts */
+ .screenshots-wrap{
+    /*background: url(../../images/download-bg.jpg) center center no-repeat;
+     background-size: cover;
+    */
+}
+ .screenshots{
+     padding: 102px 0 40px;
+     text-align: center;
+}
+ .screenshots h2 {
+     font-size: 28px;
+     text-transform: capitalize;
+     margin:0 0 38px;
+     font-weight: 400;
+     color:#181818;
+     position: relative;
+}
+ .screenshots h2::before {
+     content: "";
+     position: absolute;
+     left: 50%;
+     transform: translateX(-50%);
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+     bottom: -11px;
+     width: 100%;
+     max-width: 79px;
+     height: 2px;
+     background: #c61b29;
+}
+ .screenshots h5{
+     font-size: 16px;
+     font-weight: 400;
+     color: #fff;
+     margin: 14px 0 44px 0;
+}
+ .screenshots p {
+     color: #181818;
+     margin: 0 auto;
+     font-size: 17px;
+     font-weight: 300;
+     position: relative;
+}
+ .screenshots .app-btn{
+     display: inline-block;
+     padding: 0 12px;
+}
+ #screenshot {
+     padding:0 0 170px 0;
+}
+ #screenshot .slide-content {
+     margin: 35px;
+     padding-bottom: 10px;
+}
+ #screenshot #carousel {
+     background: url(../../images/slider-fram.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     background-position: center center;
+     position: relative;
+     padding: 45px 0;
+}
+ #screenshot #carousel ul.slick-dots {
+     position: absolute;
+     left: 50%;
+     bottom: 0;
+     transform: translateX(-50%);
+     -webkit-transform: translateX(-50%);
+     -moz-transform: translateX(-50%);
+}
+ #screenshot #carousel ul.slick-dots li{
+     display: inline;
+}
+ #screenshot #carousel ul.slick-dots li button{
+     font-size: 0px;
+     width: 8px;
+     height: 8px;
+     border-radius: 8px;
+     border: none;
+     background: #bbb;
+     margin: 0 7px;
+     position: relative;
+     outline: none;
+     transition: 0.3s;
+}
+ #screenshot #carousel ul.slick-dots li.slick-active button, #screenshot #carousel ul.slick-dots li button:hover{
+     background: #c61b29;
+}
+ #screenshot #carousel ul.slick-dots li button:hover::before, #screenshot #carousel ul.slick-dots li.slick-active button::before {
+     width: 14px;
+     height: 14px;
+     content: "";
+     border: 1px solid #c61b29;
+     position: absolute;
+     left: -3px;
+     top: -3px;
+     border-radius: 12px;
+     transition: 0.3s;
+}
+ .slick-slide img{
+     width: 100%;
+}
+/* screenshots css end */
+/* contact css starts */
+ .contact-wrapper {
+     background: url(../../images/map-img.jpg) top center no-repeat;
+     background-size: cover;
+    /*overflow: hidden;
+    */
+     padding:0 0 70px 0;
+     position: relative;
+}
+ .contact {
+     position: relative;
+     display: inline-block;
+     width: 100%;
+     margin: -114px 0 0 0;
+}
+/*.contact .col-md-6{
+     padding: 0;
+}
+*/
+ .contact .row {
+     display: flex;
+     -webkit-display: flex;
+     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+ .contact .white-area {
+     background: #fff;
+     padding: 0 55px;
+     flex: 2;
+     -webkit-flex: 2;
+}
+ .contact .white-area h3 {
+     font-size: 34px;
+     color: #181818;
+}
+ .contact h3 {
+     margin: 76px 0 65px;
+     font-size: 20px;
+     color: #fff;
+     font-family: 'AvenirLTStd65Medium';
+}
+ .contact .contact-form {
+}
+ .contact .contact-form ul {
+     list-style: none;
+     display: inline-block;
+     width: 100%;
+}
+ .contact .contact-form ul li {
+     font-size: 15px;
+     font-weight: 400;
+     position: relative;
+     display: inline-block;
+     width: 100%;
+}
+ .contact .contact-form ul li+li+li+li+li {
+     width: 100%;
+}
+ .contact .contact-form ul li:nth-child(even) {
+     float: right;
+}
+ .contact .contact-form ul li label {
+     color: #b9bec4;
+     z-index: 1;
+     position: absolute;
+     left: 0;
+     top: 18px;
+     font-weight: 400;
+     transition: 0.3s;
+}
+ .contact .contact-form ul li input[type="text"].question {
+     height: 55px;
+     color: #c61b29;
+     padding-top: 25px;
+     border: none;
+     padding-left: 0;
+     border-radius: 0;
+     font-size: 20px;
+     box-shadow: none;
+     background: none;
+     font-weight: normal;
+     width: 100%;
+     border-bottom: 1px solid #eff1f2;
+     outline: none;
+}
+ .contact .contact-form ul li textarea.question {
+     height: 80px;
+     color: #c61b29;
+     padding-top: 25px;
+     width: 100%;
+     font-size: 20px;
+     background: none;
+     width: 100% !important;
+     border: none;
+     font-weight: normal;
+     border-radius: 0;
+     padding-left: 0;
+     box-shadow: none;
+     border-bottom: 1px solid #eff1f2;
+     resize: none;
+     outline: none;
+}
+ .contact .contact-form ul li input.question:focus + label, .contact .contact-form ul li input.question:valid + label, .contact .contact-form ul li textarea.question:valid + label, .contact .contact-form ul li textarea.question:focus + label {
+     top: -5px;
+     padding-top: 5px;
+     color: #c61b29;
+}
+ .contact .contact-form ul li input.question:focus, .contact .contact-form ul li textarea.question:focus {
+     border-color: #c61b29;
+}
+ .contact .contact-form ul li button {
+     background: #c61b29;
+     color: #ffffff;
+     border: none;
+     border-radius: 0;
+     font-weight: 600;
+     font-size: 18px;
+     height: 60px;
+     width: 100%;
+     max-width: 139px;
+     border-radius: 50px;
+     transition: 0.3s;
+     outline: none;
+}
+ .contact .contact-form ul li button:hover{
+     background: #181818;
+}
+ .contact .contact-form ul li.send-btn {
+     position: relative;
+     float: left;
+     text-align: left;
+     margin:10px 0 30px;
+}
+ .contact .contact-form ul li.send-btn button {
+    /*position: absolute;
+     right: -4px;
+     top: -45px;
+    */
+}
+ .contact .red-area {
+     background: #c61b29;
+     padding: 0 35px 0 55px;
+     flex: 1;
+     -webkit-flex: 1;
+     position: relative;
+}
+ .contact .red-area .contact-info {
+     display: inline-block;
+     width: 100%;
+}
+ .contact .red-area p {
+     color: #fff;
+     font-size: 14px;
+     font-weight: 300;
+     margin: 0 0 30px 0;
+     padding-left: 45px;
+     position: relative;
+}
+ .contact .red-area p a {
+     color: #fff;
+     transition: 0.3s;
+}
+/*.contact .red-area p a:hover {
+     color: #8c9db1;
+}
+*/
+ .contact .red-area p span {
+     color: #fff;
+     position: absolute;
+     left: 0;
+     top: 2px;
+     font-size: 24px;
+}
+ .contact .red-area p span.icon-message {
+     font-size: 27px;
+}
+ .contact .red-area ul {
+     list-style: none;
+     margin: 30px 0 85px;
+     display: inline-block;
+     width: 100%;
+}
+ .contact .red-area ul li {
+     list-style: none;
+     display: inline-block;
+     margin-right: 25px;
+}
+ .contact .red-area ul li a {
+     color: #fff;
+     font-size: 20px;
+     transition: 0.3s;
+}
+ .contact .red-area ul li a:hover{
+     color: #181818;
+}
+ .contact .red-area ul li a i.icon-insta {
+     font-size: 16px;
+}
+ .contact .red-area .car-img {
+     position: absolute;
+     right: 0;
+     bottom: 0;
+}
+/* contact css ends */
+/* Privacy css start */
+ .privacy-policy h2{
+     margin:0 0 20px 0;
+     color: #424242;
+     font-size: 28px;
+     font-weight: 500;
+     text-transform: uppercase;
+}
+ .privacy-policy span{
+     color: #c61b29;
+}
+ .privacy-policy p {
+     color: #424242;
+     margin: 0 auto;
+     font-size: 15px;
+     font-weight: 300;
+     position: relative;
+     margin-top: 8px;
+     margin-bottom: 25px;
+}
+ .privacy-policy {
+     padding:50px 0 48px;
+}
+ .privacy-policy ul{
+     list-style-type: disc;
+     padding-left: 25px;
+     margin-bottom: 20px;
+     font-size: 14px;
+     margin-top: 10px;
+}
+ .privacy-policy li{
+     margin-bottom: 10px;
+     font-size: 14px;
+}
+ .privacy-policy ol{
+     list-style-type: decimal;
+     padding-left: 25px;
+     font-size: 14px;
+     margin-top: 10px;
+}
+ .header.privacy-header{
+     padding: 28px 0 20px;
+}
+/* Privacy css end */
+ 

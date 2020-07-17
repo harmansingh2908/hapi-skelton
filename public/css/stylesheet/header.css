@@ -1,0 +1,118 @@
+@import url(sidebar.css);
+/* header css starts */
+
+.header-main-wrap {
+   
+}
+.header-main-wrap .banner-img,
+.header-main-wrap .banner-img img {
+    width: 100%;
+}
+.header .container .row {
+    border-bottom: 1px solid #f1f1f1;
+}
+.header .logo{
+    margin-bottom: 26px;
+    display: inline-block;
+    width: 100%;
+}
+.header {
+    background: url(../../images/banner-bg.jpg) top center no-repeat;
+    background-size: cover;
+    padding:26px 0 0;
+    width: 100%;
+}
+.header .navigation {
+    display: inline-block;
+    margin-top: 24px;
+}
+
+.header .navigation .navbar-collapse{
+    padding: 0;
+}
+ul.navbar-nav {
+    
+} 
+ul.navbar-nav li {
+    float: left;
+    line-height: 35px;
+}
+ul.navbar-nav li+li {
+   padding-left: 44px;
+}
+ul.navbar-nav li a {
+    float: left;
+    color: #181818;
+    font-family: 'AvenirLTStd85Heavy_5177';
+    transition: 0.3s;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+    line-height: normal; 
+}
+ul.navbar-nav li a:hover,
+ul.navbar-nav li.active a{
+     color:#c61b29 ;  
+}
+
+ul.navbar-nav li a:hover,
+ul.navbar-nav li a:focus {
+    background: none;
+}
+
+
+/* header css end */
+/* banner css starts */
+.banner .container .row{
+    /*border: none;*/
+}
+.banner {
+    /*margin: 159px 0 0 0;*/
+    width: 100%;
+}
+.banner-txt {
+    margin:154px 0 264px 0;
+    width: 100%;
+    display: inline-block;
+    /* max-width: 490px;*/
+}
+.banner-txt h2 {
+    color:#c61b29 ;  
+    font-size: 52px;
+    font-family: 'AvenirLTStd95Black_5179';
+    margin: 0 0 34px;
+    line-height: 55px;
+}
+
+.banner-txt h2 span {
+    font-weight: 600;
+    color: #ffdc00;
+}
+.banner-txt p{
+    line-height:23px;
+    margin: 0 0 44px 0;
+}
+.full-width {
+    width: 100%;
+    display: block;
+}
+.banner .phone-img{
+    margin:0px;
+}
+.banner-txt .get {
+    display: inline-block;
+  
+}
+
+.banner-txt .get.android {
+    margin-right: 22px;
+    
+}
+.banner-txt .get:hover {
+    
+}
+.banner-txt .get:hover a,
+.banner-txt .get:hover i {
+    color: #fff;
+}
+/* banner css end */

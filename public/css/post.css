@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	 font-family: 'avenir_lt_std45_book';
+}
+
+img{
+   max-width:100%;	
+}
+ul, li{
+	padding:0;
+	margin: 0;
+	list-style:none;
+}
+
+
+
+.blog-header {
+	display: block;
+	padding: 20px 0;
+	background: #c61b29;
+	text-align: center;
+}
+
+.blog-header img{
+   max-width:200px;
+   display: inline-block;	
+}
+
+
+
+/*** inner ***/
+
+.blog-content {
+	display: block;
+	padding-top: 5%;
+	min-height: calc(100vh - 193px );
+}
+
+
+.blog-wrap {
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+
+.bolg-profile {
+    display: block;
+	padding: 0 15px;
+	
+}
+
+.bolg-profile .profile-img {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	overflow: hidden;
+	border-radius: 50%;
+	vertical-align: middle;
+}
+
+.bolg-profile .profile-detals {
+	display: inline-block;
+	vertical-align: middle;
+}
+.bolg-profile .profile-detals h4{
+   font-size:22px;
+}
+.bolg-profile .profile-detals span{
+   font-size:15px;	
+}
+
+
+
+
+.post-content{
+	  display: block;
+	  font-size:0;
+		padding-bottom:50px;
+		
+}
+
+
+.post-content-detals {
+	display: inline-block;
+	width: 60%;
+	font-size: 16px;
+	vertical-align: top;
+	padding: 0 15px;
+}
+.post-content-detals p {
+	margin: 20px 0;
+}
+
+.post-img {
+	display: block;
+	max-width: 600px;
+}
+.post-img video{
+	width:100%;
+}
+
+.post-img img{
+   width:100%;	
+}
+
+.post-side-bar {
+	display: inline-block;
+	width: 40%;
+	font-size: 16px;
+	padding: 0 15px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.post-side-bar h3{
+   color: #c61b29;
+   font-size:22px;	
+   margin-bottom:8px;
+}
+
+.post-side-bar h6{
+	 font-size:15px;
+	 text-transform: uppercase;	
+      margin-bottom:8px;
+}
+
+.post-side-bar ul{
+  margin-top:20px;	
+}
+
+.post-side-bar li{
+  display:block;
+  margin-bottom:10px;	   	
+}
+
+
+
+.blog-footer{
+	display:block;
+	padding:10px 0;
+	background: #f6f6f6;
+	text-align: center;
+}
+
+
+ @media (max-width: 1024px) {
+	
+	.post-content-detals {
+		width:100%;
+	}
+	.post-side-bar  {
+		width:100%;
+		padding-top: 30px;
+	}
+	
+	.post-img img{
+	  max-width:400px;
+   }
+	 
+	 
+ }

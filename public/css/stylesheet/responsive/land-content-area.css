@@ -1,0 +1,233 @@
+ @media screen and (min-width: 1500px) and (max-width: 2299px) {
+  
+}
+ @media screen and (min-width: 1200px) and (max-width: 1499px) {
+      
+}
+ @media screen and (min-width: 1025px) and (max-width: 1199px) {
+     .about-app .logo img{
+         width: 100%;
+    }
+     .about-txt {
+         margin: 25px 0 0 0;
+    }
+     .banner-txt h2{
+         font-size: 30px;
+    }
+     .banner-txt .get{
+         width: 42%;
+    }
+     .banner-txt .get img{
+         width: 100%;
+         max-width: 100%;
+    }
+       #screenshot #carousel{
+        padding: 2% 0;
+     }
+}
+ @media screen and (min-width: 992px) and (max-width: 1024px) {
+     .about-app .logo img{
+         width: 100%;
+    }
+     .about-txt {
+         margin: 25px 0 0 0;
+    }
+     .banner-txt .get{
+         width: 42%;
+    }
+     .banner-txt .get img{
+         width: 100%;
+         max-width: 100%;
+    }
+       #screenshot #carousel{
+        padding: 2% 0;
+     }
+}
+ @media screen and (min-width: 768px) and (max-width: 991px) {
+     .about-app .logo{
+         display: none;
+    }
+     .about-txt {
+         margin: 0;
+         text-align: center;
+    }
+     .about-txt h2{
+         display: inline-block;
+    }
+     .how-it-section .how-it-works {
+         margin: 40px 0 0 0;
+    }
+     .how-it-section .how-it-works .col-md-4{
+         margin-bottom: 30px;
+    }
+     .how-it-section .how-it-works h4 {
+         margin: 20px 0 10px;
+    }
+     .features .features-innr{
+         text-align: center;
+    }
+     .features .features-innr h4 {
+         margin: 15px 0 10px;
+    }
+     .features p {
+         margin: 0 auto 40px;
+    }
+     .features .features-innr:nth-child(3) {
+         margin-top: 0px;
+    }
+     .contact {
+         margin: 40px auto 0;
+    }
+     .contact .white-area {
+         background: #fff;
+         padding: 10px 20px 60px;
+    }
+     .contact .blue-area {
+         padding: 10px 20px 60px 20px;
+    }
+     .contact .white-area h3 {
+         text-align: center;
+    }
+     .contact .row {
+         display: inline-block;
+         padding: 0 20px;
+         box-shadow: none;
+    }
+     .contact .blue-area ul {
+         list-style: none;
+         margin: 10px 0 45px;
+    }
+     .contact .white-area h3 {
+         margin: 30px 0 16px;
+    }
+     .contact h3 {
+         margin: 30px 0 25px;
+    }
+     .contact .contact-form ul li {
+         width: 100%;
+    }
+     .contact .red-area p{
+         font-size: 15px;
+    }
+     .contact .red-area{
+         margin-top: 30px;
+    }
+     .contact-wrapper {
+         padding:0 0 40px 0;
+    }
+       #screenshot #carousel{
+        padding: 2% 0;
+     }
+}
+ @media screen and (max-width: 767px) {
+     .about-app .logo{
+         display: none;
+    }
+     .about-txt {
+         margin: 0;
+         text-align: center;
+    }
+     .about-txt h2{
+         display: inline-block;
+    }
+     .features .features-innr{
+         text-align: center;
+    }
+     .features .features-innr h4 {
+         margin: 15px 0 10px;
+    }
+     .features p {
+         margin: 0 auto 40px;
+    }
+     .features .features-innr:nth-child(3) {
+         margin-top: 0px;
+    }
+     .how-it-section .how-it-works {
+         margin: 40px 0 0 0;
+    }
+     .how-it-section .how-it-works .col-md-4{
+         margin-bottom: 30px;
+    }
+     .how-it-section .how-it-works h4 {
+         margin: 20px 0 10px;
+    }
+     .how-it-section {
+         padding: 50px 0 18px;
+    }
+     .contact .white-area {
+         background: #fff;
+         padding: 10px 20px 60px;
+    }
+     .contact .blue-area {
+         padding: 10px 20px 60px 20px;
+    }
+     .contact .white-area h3 {
+         text-align: center;
+    }
+     .contact .row {
+         display: inline-block;
+         padding: 0 20px;
+         box-shadow: none;
+    }
+     .contact .blue-area ul {
+         list-style: none;
+         margin: 10px 0 45px;
+    }
+     .contact .white-area h3 {
+         margin: 30px 0 16px;
+    }
+     .contact h3 {
+         margin: 30px 0 25px;
+    }
+     .contact .contact-form ul li {
+         width: 100%;
+    }
+     .contact .red-area p{
+         font-size: 15px;
+    }
+     .contact .red-area{
+         margin-top: 30px;
+    }
+     .banner-txt{
+         text-align: center 
+    }
+     .download-area .app-btn{
+         margin-bottom: 15px;
+    }
+     .download-area h3, .contact h2, .how-it-section h2{
+         font-size: 25px;
+    }
+     .how-it-section h2{
+         margin: 0 0 10px 0;
+    }
+     .download-area {
+         padding: 52px 0 40px;
+    }
+     .screenshots-wrap{
+         display: none;
+    }
+     .contact {
+         margin: 40px auto 0;
+    }
+     .contact .contact-form ul li.send-btn{
+         text-align: center;
+    }
+     .contact-wrapper {
+         padding:0 0 40px 0;
+    }
+}
+ @media screen and (max-width: 640px) {
+}
+ @media screen and (max-width: 480px) {
+     .newsletter p {
+         font-size: 15px;
+    }
+}
+ @media screen and (max-width: 400px) {
+     .header .logo img{
+         width: 100%;
+         max-width: 100%;
+    }
+}
+ @media screen and (max-width: 360px) {
+}

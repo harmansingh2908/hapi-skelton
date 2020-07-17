@@ -1,0 +1,101 @@
+
+@media screen and (min-width: 1200px) and (max-width: 2299px) {
+  
+}
+@media screen and (min-width: 1200px) and (max-width: 1499px) {
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1199px) {
+   
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer p{
+        font-size: 13px;
+    }
+    .footer.footer2{
+        text-align: center;
+    }
+    .footer ul{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer ul li{
+     display: inline-block;
+    }
+.footer.footer2 .social ul {
+    margin: 10px 0 0 0;
+}
+    .footer-wrapper .footer-ul li+li {
+        padding: 0 0 0 20px;
+    }
+    .footer-wrapper .footer-ul li a{
+        font-size: 14px;
+    }
+ 
+    
+}
+@media screen and (max-width: 767px) {
+   
+     .footer{
+        text-align: center;
+        font-size: 15px;
+         padding: 19px 0;
+    }
+    .footer p{
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .footer ul{
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+      .footer-wrapper .footer-ul li+li {
+        padding: 0 0 0 10px;
+    }
+    .footer-wrapper .footer-ul li a{
+        font-size: 13px;
+    }
+ 
+    
+    .footer.footer2,
+    .footer p{
+        text-align: center;
+    }
+    .footer.footer2 .social ul{
+        display: inline-block;
+        width:100%;
+        margin: 10px  0 0;
+    }
+    .footer.footer2 .social ul li{
+        padding: 0 15px;
+    }
+  
+    
+    
+  
+ 
+}
+@media screen and (max-width: 640px) {
+    
+}
+@media screen and (max-width: 480px) {
+    .footer-wrapper .footer-ul li{
+        padding: 0 10px;
+    }
+}
+@media screen and (max-width: 400px) {
+    
+   .footer{
+        font-size: 13px;
+    }
+    .footer p{
+        font-size: 13px;
+    } 
+}
+@media screen and (max-width: 360px) {}

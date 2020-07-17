@@ -1,0 +1,81 @@
+{
+  "app": {
+    "name": "NextFoodies",
+    "host": "nextfoodies.ignivadigital.net",
+    "port": 4010,
+    "socket": 4010,
+    "debug": true,
+    "logLevel": "info",
+    "jwtAlgo": "HS512",
+    "jwtKey": "igniva-nextFoodies"
+  },
+  "db": {
+    "name": "nextfoodies",
+    "host": "169.50.75.236",
+    "auth": true,
+    "username": "nextfoodies",
+    "password": "nextdksa_!3",
+    "port": 27017,
+    "mongoose": {
+      "useMongoClient": true,
+      "autoIndex": true, // Don't build indexes
+      "poolSize": 10, // Maintain up to 10 socket connections
+      // If not connected, return errors immediately rather than waiting for reconnect
+      "bufferMaxEntries": 0
+    }
+  },
+  "google": {
+    "apiKey": "AIzaSyC6uIY9MX95TTQ3FLJBWssoDvECxrYtLmY"
+  },
+  "nexmo": {
+    "sid": "eceb8b84",
+    "token": "c07db68ebae0ceed",
+    "number": ""
+  },
+  "smtp": {
+    "smtpUser": "react.igniva@gmail.com",
+    "smtpPass": "igniva@123",
+    "smtpPort": 587, //25,
+    "smtpServer": "smtp.gmail.com",
+    "mailFrom": "NextFoodie <notifications@nf.com>",
+    "templatePath": "../../emailTemplates/",
+    "invoicePath": "../../"
+  },
+  "cron": {
+    "reqTime": 60000,
+    "operationTime": 120000,
+    "repeatHit": 10000,
+    "exceedLimit": 300000
+  },
+  "goibibo": {
+    "apiKey": "fce1667f4c1caad29a83dc903c144ba2",
+    "appId": "114830e7"
+  },
+  "ubereats": {
+    "clientSecret": "ZmclAJP6Awd_IT4lXB7iwIyPpJKKw0Gk3ALod5pf",
+    "clientId": "TH1EGU0sbj-ufDTjTT0TIw0z_l86qzC0",
+    "sandbox": true,
+    "serverToken": "szAEF3fHp9gVZHBexDWKEJ9RpICxKLJxsBqniAfg"
+  },
+  "adminCharges": {
+    "conveninceCharges": 0.2
+  },
+  "images": {
+    "logo": "http://nextfoodies.ignivadigital.net/public/images/logo.png",
+    "fb": "http://nextfoodies.ignivadigital.net/public/images/fb.png",
+    "twitter": "http://nextfoodies.ignivadigital.net/public/images/twitter.png",
+    "insta": "http://nextfoodies.ignivadigital.net/public/images/insta.png",
+    "user": "http://nextfoodies.ignivadigital.net/public/images/user.png",
+    "appstore": "http://nextfoodies.ignivadigital.net/public/images/app-store.png",
+    "googlestore": "http://nextfoodies.ignivadigital.net/public/images/google-store.png"
+  },
+  "urls": {
+    "baseurl": "http://nextfoodies.ignivadigital.net/",
+    "fburl": "https://www.facebook.com/",
+    "twitterurl": "https://twitter.com/",
+    "instaurl": "https://www.instagram.com/",
+    "appstoreurl": "https://www.itunesconnect.apple.com/",
+    "googlestoreurl": "https://play.google.com/store?hl=en",
+    "goibibourl": "https://developer.goibibo.com/api/search/"
+  }
+}
