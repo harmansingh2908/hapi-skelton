@@ -14,7 +14,7 @@
     "joi": "^13.0.1",
     "jsonwebtoken": "^8.5.1",
     "md5": "^2.2.1",
-    "mongoose": "^4.12.4",
+    "mongoose": "^5.7.5",
     "nodemailer": "^6.4.10",
     "nodemailer-smtp-transport": "^2.7.4",
     "slugify": "^1.4.4",
